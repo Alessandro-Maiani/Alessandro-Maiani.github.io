@@ -537,7 +537,6 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .container {
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding-bottom: 15px;
 }
 
@@ -839,7 +838,7 @@ section {
 #footer .footer-top {
   background: #15222b;
   border-bottom: 1px solid #1d303c;
-  padding: 60px 0 30px 0;
+  padding: 50px 0 0 0;
 }
 
 #footer .footer-top .footer-info {
@@ -927,53 +926,4 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   color: red;
-}
-
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 4px;
-}
-
-#footer .footer-top .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-}
-
-#footer .footer-top .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: 0;
-  right: -2px;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: red;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 4px 4px 0;
-}
-
-#footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: red;
-}
-
-#footer .copyright {
-  text-align: center;
-  padding-top: 30px;
-}
-
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #fff;
-}
-
-#footer .credits a {
-  transition: 0.3s;
 }
